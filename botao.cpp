@@ -27,7 +27,7 @@ Botao::Botao():m_tooltip_p(Gtk::WINDOW_POPUP){ //Necessario definir o tipo de ja
     
     //Adiciona icone e label ao botao
     this->m_btn1.set_label(" Botão1");
-    this->m_btn1.set_image_from_icon_name("gtk-home"); //Vale somente para botoes padrao
+    this->m_btn1.set_image_from_icon_name("gtk-home",Gtk::ICON_SIZE_BUTTON); //Vale somente para botoes padrao
     this->m_btn1.set_image_position(Gtk::POS_RIGHT);
     this->m_btn1.set_always_show_image(true);
 
