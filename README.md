@@ -3,7 +3,7 @@
 
 ### App
 
-![](DOC/Peek 06-11-2021 23-26.gif)
+![](https://github.com/upuaut-wq/cap3_basico/blob/master/DOC/Peek%2006-11-2021%2023-26.gif)
 
 Exemplo básico de um programa gtkmm.
 
