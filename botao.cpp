@@ -118,4 +118,10 @@ bool Botao::on_button_query_tooltip(int, int, bool, const Glib::RefPtr<Gtk::Tool
         //Realiza a alteração
         this->m_img_t.set_from_icon_name(n_icon[x],Gtk::ICON_SIZE_DIALOG);
         this->m_btn1.set_image_from_icon_name(n_icon[x]);
+
+        //Achei estranho ter que refazer o Gdk, imagino que 
+        //tenha alguma forma mais facil de alterar o tamanho da imagem.
+        this->ref_icon_bt3 = Gdk::Pixbuf::create_from_file("icon.png",50,50,false); //Cria uma referencia.
+        this->m_img.set(this->ref_icon_bt3);                                          //Adiciona a referencia em um widget do tipo image.
+        this->m_btn3.set_image(this->m_img);        
     }
