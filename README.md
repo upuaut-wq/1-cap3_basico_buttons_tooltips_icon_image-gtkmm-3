@@ -169,7 +169,7 @@ Exemplo básico de um programa gtkmm.
         this->m_btn3.set_tooltip_text("  -Texto normal sem tags de formatação.\n  -Imagem personalizada no icone.\n  -Margem esq,dir de 10px.\n  -Alinhamento no inicio com vspand.\n -Nome pode ser colocado tbm.");
         ~~~
 
-        **3.** `set_tooltip_markup` <- Permite adicionar texto com tags de formatação. A formatação de textos "pelo que entendi vem da lib Pango".
+        **3.** `set_tooltip_markup` <- Permite adicionar texto com tags de formatação. A formatação de textos "pelo que entendi, vem da lib Pango".
 
         Exemplo;
 
