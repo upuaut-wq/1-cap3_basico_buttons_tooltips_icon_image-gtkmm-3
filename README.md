@@ -1,5 +1,5 @@
 # cap3_basico gtkmm 3.0
-## OBS : Este é um "caderno", as informações contidas neste arquivo são anotações pessoais e podem não estar 100% corretas.
+## OBS : Este é um "caderno", as informações contidas neste arquivo são anotações pessoais e podem apresentar informações incorretas.
 
 ### App
 
