@@ -42,21 +42,22 @@ Botao::Botao():m_tooltip_p(Gtk::WINDOW_POPUP){ //Necessario definir o tipo de ja
     this->m_scale.set_range(0,100);               //Intervalo do Scale.
     
     //Para TEXTO
-    //Gtk::Label* label =
-    //Gtk::make_managed<Gtk::Label>("A label in a custom tooltip window");
-    //label->show();
+    
+    this->m_label.set_label("Texto para Tooltip Window");
+    this->m_tooltip_p.add(this->m_label);
+    this->m_label.show();
 
     //Para WIDGET(Aparenta funcionar)
     //this->m_tooltip_p.add(this->m_scale);   //Adiciona a window o scale.
     //this->m_scale.show();  //Deve estar presente, aparentemente o show_all_children da view principal não alcança o scale.
 
     //Para IMAGE
-    this->m_tooltip_p.add(this->m_img_t);   //Adiciona a window o scale.
-    this->m_img_t.set_from_icon_name("gtk-media-forward",Gtk::ICON_SIZE_DIALOG);
-    this->m_img_t.show();  //Deve estar presente, aparentemente o show_all_children da view principal não alcança o scale.
+    //this->m_tooltip_p.add(this->m_img_t);   //Adiciona a window o scale.
+    //this->m_img_t.set_from_icon_name("gtk-media-forward",Gtk::ICON_SIZE_DIALOG);
+    //this->m_img_t.show();  //Deve estar presente, aparentemente o show_all_children da view principal não alcança o scale.
 
     //O tooltip aparece muito rapido,não é possivel alterar o valor do scale.
-    this->m_btn2.signal_query_tooltip().connect(sigc::mem_fun(*this, &Botao::on_button_query_tooltip)); //Sinal gerado pelo tooltip.
+    //this->m_btn2.signal_query_tooltip().connect(sigc::mem_fun(*this, &Botao::on_button_query_tooltip)); //Sinal gerado pelo tooltip.
 
     //BOTÃO3 ******************************************************************************************************
     this->m_btn3.set_vexpand(true); //Ativa a expanção do objeto para ocupar espaço sobrando.
@@ -98,12 +99,12 @@ Botao::~Botao(){
 
 
 
-bool Botao::on_button_query_tooltip(int, int, bool, const Glib::RefPtr<Gtk::Tooltip>&)
-{
+//bool Botao::on_button_query_tooltip(int, int, bool, const Glib::RefPtr<Gtk::Tooltip>&)
+//{
   //We already have a custom window ready, just return true to show it:
   
-  return true;
-}
+//  return true;
+//}
 
 
     void  Botao::on_btn4_alt_img(){
