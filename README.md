@@ -21,7 +21,7 @@ Exemplo básico de um programa gtkmm.
      ~~~c++
         //Adiciona icone e label ao botao
         this->m_btn1.set_label(" Botão1");
-        this->m_btn1.set_image_from_icon_name("gtk-home");
+        this->m_btn1.set_image_from_icon_name("gtk-home",Gtk::SIZE_ICON_BUTTON);
         this->m_btn1.set_image_position(Gtk::POS_RIGHT);
         this->m_btn1.set_always_show_image(true); 
     ~~~
@@ -72,6 +72,17 @@ Exemplo básico de um programa gtkmm.
         Glib::RefPtr<Gdk::Pixbuf> ref_icon_bt3;
         Gtk::Image m_img;
         ~~~
+
+* ### Método 3 para inserir imagem em um botão.
+
+    * Neste método é obrigatório o uso de Label e o tamanho da imagem não pode ser alterado. 
+
+        ~~~c
+        //Botoes
+        add_pixlabel(const std::string &pixfile, const Glib::ustring &label, Gtk::Align x_align, Gtk::Align y_align = Gtk::ALIGN_CENTER);
+        ~~~
+
+        &**pixfile** é o endereço de onde a imagem está localizada. As outras é para alinhamento da imagem em relação ao eixo X e Y.
 
 * ### Sinais
 
