@@ -7,7 +7,7 @@
 * Como posicionar a imagem no botão?
 * Como alterar o tamanho do icone de um botão?
 * Como criar um sinal entre um botão e uma ação?
-* Como inserir tooltips em um botão com ou sem formatação?
+* Como inserir tooltips em um botão, com ou sem formatação?
 * Como inserir tooltips do tipo Gtk::Window?
 
 ### App
