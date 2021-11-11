@@ -7,7 +7,7 @@
 
 Exemplo básico de um programa gtkmm.
 
-* ### Adicionar Imagem em um botão(Icone).
+* ### MOD1 - ADICIONAR IMAGEM BOTÃO
 
     Para inserir um icone em um botão, foi utilizado as seguintes linhas de código.
 
@@ -48,7 +48,7 @@ Exemplo básico de um programa gtkmm.
         ICON_SIZE_DND  |  (32px
         ICON_SIZE_DIALOG  | (48px)
 
-* ### Adicionar Imagem, PARTE 2.
+* ### MOD2 - ADICIONAR IMAGEM BOTÃO
 
     * Arquivo .cpp
     
