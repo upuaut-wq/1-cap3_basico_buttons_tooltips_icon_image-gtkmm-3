@@ -1,4 +1,4 @@
-# cap3_básico_button_tooltips_image_pixlabel gtkmm 3.0
+# cap3_button_tooltips_image_pixlabel gtkmm 3.0
 ## OBS : Este é um "caderno", as informações contidas neste arquivo são anotações pessoais e podem apresentar informações incorretas.
 
 ## Perguntas respondidas:
