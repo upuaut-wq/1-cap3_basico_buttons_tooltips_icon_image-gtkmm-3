@@ -114,7 +114,7 @@ Exemplo básico de um programa gtkmm.
             //Achei estranho ter que refazer o código para redimencionar o tamanho da imagem.
             this->ref_icon_bt3 = Gdk::Pixbuf::create_from_file("icon.png",50,50,false); 
             this->m_img.set(this->ref_icon_bt3);                                       
-            this->m_btn3.set_image(this->m_img);        
+            this->m_btn3.set_image(this->m_img);         
         }
     ~~~
 
