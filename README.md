@@ -1,6 +1,15 @@
 # cap3_basico gtkmm 3.0
 ## OBS : Este é um "caderno", as informações contidas neste arquivo são anotações pessoais e podem apresentar informações incorretas.
 
+## Perguntas respondidas:
+   
+* Como inserir um icone em um botão?
+* Como posicionar a imagem no botão?
+* Como alterar o tamanho do icone de um botão?
+* Como criar um sinal entre um botão e uma ação?
+* Como inserir tooltips em um botão com ou sem formatação?
+* Como inserir tooltips do tipo Gtk::Window?
+
 ### App
 
 ![](https://github.com/upuaut-wq/cap3_basico/blob/master/DOC/Peek%2006-11-2021%2023-26.gif)
