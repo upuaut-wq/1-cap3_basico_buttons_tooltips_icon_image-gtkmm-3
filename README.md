@@ -73,7 +73,7 @@ Exemplo básico de um programa gtkmm.
         Gtk::Image m_img;
         ~~~
 
-* ### Método 3 para inserir imagem em um botão.
+* ### MOD3 - ADICIONAR IMAGEM BOTÃO
 
     * Neste método é obrigatório o uso de Label e o tamanho da imagem não pode ser alterado. 
 
